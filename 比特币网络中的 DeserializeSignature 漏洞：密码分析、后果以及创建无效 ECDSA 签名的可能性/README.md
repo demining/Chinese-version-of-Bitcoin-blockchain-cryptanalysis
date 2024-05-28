@@ -2,6 +2,12 @@
 <figure class="wp-block-image"><img src="https://cryptodeep.ru/wp-content/uploads/2024/05/053-2-1024x576.png" alt="比特币网络中的 DeserializeSignature 漏洞：密码分析、后果以及创建无效 ECDSA 签名的可能性" class="wp-image-5188"/></figure>
 <!-- /wp:image -->
 
+---
+
+# 比特币网络中的 DeserializeSignature 漏洞：密码分析、后果以及创建无效 ECDSA 签名的可能性
+
+---
+
 <!-- wp:paragraph -->
 <p>在本研究中，我们将研究 DeserializeSignature 漏洞，该漏洞允许攻击者在比特币网络上创建无效的 ECDSA 签名。在密码学中，ECDSA 数字签名是一种数学方案，可让您证明数字消息或文档的真实性。在比特币网络中，签名用于授权交易，确认一定数量的比特币的所有者确实同意其转移。然而，&nbsp;<a href="https://attacksafe.ru/bip-schnorrrb"><em>2023 年发现的</em></a>该函数中的一个漏洞<code>DeserializeSignature</code>允许攻击者创建可以被网络视为有效的无效签名。<a href="https://attacksafe.ru/bip-schnorrrb"><em></em></a></p>
 <!-- /wp:paragraph -->
